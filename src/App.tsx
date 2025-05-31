@@ -1,11 +1,8 @@
-import 
+import {Layout} from './components/Layout';
 
 function App() {
 
-  return (
-    <>
-    </>
-  )
+  return <Layout title="EdgeAI"></Layout>;
 }
 
 export default App
