@@ -1,3 +1,5 @@
+import { Navbar } from "./elements/Navbar";
+import { Footer } from "./elements/Footer";	
 
 interface LayoutProps {
   title: string;
