@@ -1,5 +1,6 @@
 import { Navbar } from "./elements/Navbar";
 import { Footer } from "./elements/Footer";	
+import { useEffect } from "react";
 
 interface LayoutProps {
   title: string;
@@ -7,6 +8,10 @@ interface LayoutProps {
 }
 
 export const Layout = ({title, children}:LayoutProps) => {
+  useEffect(() => {
+    document.title = title;
+  }
+  , [title]);
 
   return (
     <>
