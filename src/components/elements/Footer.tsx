@@ -1,6 +1,8 @@
 
 export const Footer = () => {
     return (
-        <>Footer</>
+        <footer>
+            this is the footer actually
+        </footer>
     )
 }

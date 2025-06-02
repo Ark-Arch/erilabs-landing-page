@@ -4,7 +4,7 @@ import { Hero } from './components/sections/Hero';
 function App() {
 
   return (
-  <Layout title="EdgeAI">
+  <Layout title="EriLabs">
     <Hero/>
   </Layout>
   )
