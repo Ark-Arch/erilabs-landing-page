@@ -3,6 +3,7 @@ import { NavItem } from "../shared/NavItem"
 import { BtnLink } from "../shared/BtnLink"
 import { useThemeStore } from "../../store/ThemeStore"
 // import Logo from '../../assets/'
+import logo from '/assets/eri-lab.jpeg'
 
 const navItems = [
   {href: "#", text: 'Home'},
@@ -21,7 +22,7 @@ export const Navbar = () => {
           {/* Logo */}
           <div className="min-w-max inline-flex relative">
             <a href="/" className="relative flex items-center gap-3">
-              <img src="" alt="EriLabs" className="w-10 h-10"/>
+              <img src={logo} alt="EriLabs" className="w-10 h-10 rounded-full"/>
               <div className="inline-flex text-lg font-semibold text-heading-1">
                 EriLabs
               </div>
