@@ -12,3 +12,5 @@ landing page using the following tech stack:
 
 * h-0 overflow-hidden
 * put hover effect on the get started button
+
+*bg-clip-text alongside text-transparent
