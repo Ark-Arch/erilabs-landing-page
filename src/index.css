@@ -1,12 +1,14 @@
 @import "tailwindcss";
 
-/* setup theme constraints for a light theme */
-@theme {
+/* setup theme constraints for a light theme */ 
+:root { /*or @theme ?*/
   --color-bg: 255, 255, 255;
+  /* --color-bg: 185 28 28; */
   --color-box: 255, 255, 255;
   --box-border: 229, 231, 235;
   --box-sd: 226 232 240 / 0.5;
   --heading-1: 23 37 84;
+  /* --heading-1: 185 28 28; */
   --heading-2: 31 41 55;
   --heading-3: 55 65 81;
 }
@@ -26,23 +28,27 @@ html.dark {
 /* using directives */
 @layer utilities  {
   .bg-body {
-    background-color: rbg(var(--color-bg));
+    background-color: rgb(var(--color-bg));
   }
 
+  /* .border-box-border {
+    border: rgb(var(--box-border))
+  } */
+
   .bg-box-bg {
-    background-color: rbg(var(--color-box));
+    background-color: rgb(var(--color-box));
   }
 
   .text-heading-1 {
-    color: rbg(var(--heading-1));
+    color: rgb(var(--heading-1));
   }
 
   .text-heading-2 {
-    color: rbg(var(--heading-2));
+    color: rgb(var(--heading-2));
   }
 
   .text-heading-3 {
-    color: rbg(var(--heading-3));
+    color: rgb(var(--heading-3));
   }
 }
 
