@@ -1,5 +1,6 @@
 import { Container } from "../shared/Container"
 import { Paragraph } from "../shared/Paragraph"
+import { Button } from "../shared/Button"
 
 export const Hero = () => {
     return (
@@ -17,7 +18,7 @@ export const Hero = () => {
                 <div className="relative flex flex-col items-center text-center lg:text-left lg:py-8 lg:items-start 
                                 lg:max-w-none max-w-3xl mx-auto lg:mx-0 lg:flex-1 lg:w-1/2">
                     <h1 className="text-heading-1 text-3xl sm:text-4xl md:text-5xl xl:text-6xl font-bold">
-                        Redefining possibilities <span className="text-transparent bg-clip-text bg-gradient-to-r from-blue-600 to-violet-600 ml-2">using Robotics</span>
+                        Redefining possibilities <span className="block lg:inline text-transparent bg-clip-text bg-gradient-to-r from-blue-600 to-violet-600 ml-2">using Robotics</span>
                     </h1>
 
                     <Paragraph className="mt-8">
@@ -51,6 +52,9 @@ export const Hero = () => {
                                 <input type="email" 
                                         placeholder="johndoe@gmail.com" 
                                         className="w-full py-3 outline-none bg-transparent"/>
+                                <Button className="min-w-max text-white">
+                                    <span className="hidden sm:flex relative z-5">Get Started</span>
+                                </Button>
                             </form>
                         </div>
                     </div>
