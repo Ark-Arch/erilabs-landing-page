@@ -9,35 +9,32 @@ export const Numbers = () => {
                         border border-box-border shadow-lg shadow-box-shadow md:divide-x divide-box-border
                         grid grid-cols-2 md:grid-cols-4"
         >
-          <div className="text-center px-5">
+          <div className="text-center px-5 pb-5">
             <h2 className="font-semibold text-xl sm:text-2xl md:text-4xl text-heading-1">
-              {" "}
-              100+{" "}
+              100+
             </h2>
             <p className="mt-2 text-heading-3"> Robotic Systems Deployed</p>
           </div>
-          <div className="text-center px-5">
+          <div className="text-center px-5 pb-5">
             <h2 className="font-semibold text-xl sm:text-2xl md:text-4xl text-heading-1">
-              {" "}
-              250+{" "}
+              250+
             </h2>
             <p className="mt-2 text-heading-3"> Industry Leaders Served</p>
           </div>
-          <div className="text-center px-5">
+          <div className="text-center px-5 pb-5">
             <h2 className="font-semibold text-xl sm:text-2xl md:text-4xl text-heading-1">
-              {" "}
-              99.9%{" "}
+              99.9%
             </h2>
             <p className="mt-2 text-heading-3"> Uptime Guarantee</p>
           </div>
-          <div className="text-center px-5">
+          <div className="text-center px-5 pb-5">
             <h2 className="font-semibold text-xl sm:text-2xl md:text-4xl text-heading-1">
-              {" "}
-              10+{" "}
+              10+
             </h2>
             <p className="mt-2 text-heading-3"> Years of Innovation</p>
           </div>
         </div>
+
       </Container>
     </section>
   );

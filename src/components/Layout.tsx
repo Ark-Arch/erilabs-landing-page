@@ -1,5 +1,5 @@
 import { Navbar } from "./elements/Navbar";
-import { Footer } from "./elements/Footer";	
+import { Footer } from "./elements/Footer";
 import { useEffect } from "react";
 
 interface LayoutProps {

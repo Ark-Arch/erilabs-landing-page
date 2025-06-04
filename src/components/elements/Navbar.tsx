@@ -5,11 +5,11 @@ import { useThemeStore } from "../../store/ThemeStore"
 // import Logo from '../../assets/'
 import logo from '/assets/eri-lab.jpeg'
 
-const navItems = [
+export const navItems = [
   {href: "#", text: 'Home'},
   {href: "#services", text: 'Services'},
   {href: "#about-us", text: 'About Us'},
-  {href: "#features", text: 'Features'},
+  {href: "#pricing", text: 'Pricing'},
 ]
 
 export const Navbar = () => {
