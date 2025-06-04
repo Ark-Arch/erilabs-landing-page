@@ -1,6 +1,7 @@
 import { Container } from "../shared/Container"
 import { Paragraph } from "../shared/Paragraph"
 import { Button } from "../shared/Button"
+import { Numbers } from "./Numbers"
 
 export const Hero = () => {
     return (
@@ -18,13 +19,13 @@ export const Hero = () => {
                 <div className="relative flex flex-col items-center text-center lg:text-left lg:py-8 lg:items-start 
                                 lg:max-w-none max-w-3xl mx-auto lg:mx-0 lg:flex-1 lg:w-1/2">
                     <h1 className="text-heading-1 text-3xl sm:text-4xl md:text-5xl xl:text-6xl font-bold">
-                        Redefining possibilities <span className="block lg:inline text-transparent bg-clip-text bg-gradient-to-r from-blue-600 to-violet-600 ml-2">using Robotics</span>
+                        Redefining possibilities<span className="block text-transparent bg-clip-text bg-gradient-to-r from-blue-600 to-violet-600 ml-2">using Robotics</span>
                     </h1>
 
                     <Paragraph className="mt-8">
-                        At ERILabs, we specialize in cutting-edge robotics and AI solutions designed to 
+                        At EriLabs, we specialize in cutting-edge robotics and AI solutions designed to 
                         streamline operations, boost efficiency, and unlock new opportunities for innovation across industries. 
-                        Let's build the future together.
+                        <span className="block lg:inline"> Let's build the future together.</span>
                     </Paragraph>
                     <div className="mt-10 w-full flex max-w-md mx-auto lg:mx-0">
                         <div className="flex sm:flex-row flex-col gap-5 w-full">
@@ -53,13 +54,24 @@ export const Hero = () => {
                                         placeholder="johndoe@gmail.com" 
                                         className="w-full py-3 outline-none bg-transparent"/>
                                 <Button className="min-w-max text-white">
-                                    <span className="hidden sm:flex relative z-5">Get Started</span>
+                                    <span className="sm:flex relative z-5">Get Started</span>
                                 </Button>
                             </form>
                         </div>
                     </div>
                 </div>
+
+                <div className="flex flex-1 lg:w-1/2 lg:h-auto relative lg:max-w-non lg:mx-0 mx-auto max-w-3xl">
+                    <img
+                        src="https://images.pexels.com/photos/7773731/pexels-photo-7773731.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2"
+                        alt="Hero image"
+                        width={2350}
+                        height={2359}
+                        className="lg:absolute lg:w-full lg:h-full rounded-3xl object-cover lg:max-h-non max-h-96"
+                    />
+                </div>
             </Container>
+            <Numbers />
         </section>
     )
 }

@@ -34,6 +34,10 @@ html.dark {
   /* .border-box-border {
     border: rgb(var(--box-border))
   } */
+/* 
+  .shadow-box-shadow {
+    box-shadow: rgb(var(--box-sd));
+  } */
 
   .bg-box-bg {
     background-color: rgb(var(--color-box));
