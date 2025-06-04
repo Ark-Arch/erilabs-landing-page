@@ -54,7 +54,7 @@ export const Hero = () => {
                                         placeholder="johndoe@gmail.com" 
                                         className="w-full py-3 outline-none bg-transparent"/>
                                 <Button className="min-w-max text-white">
-                                    <span className="sm:flex relative z-5">Get Started</span>
+                                    <span className="sm:flex relative z-5">Get In Touch</span>
                                 </Button>
                             </form>
                         </div>
